@@ -18,6 +18,10 @@ Desktopová aplikace pro správu knih vytvořená v Javě s databází PostgreSQ
 - JDBC
 - SQL
 
+## Database
+
+The application uses PostgreSQL and expects a local database configuration.
+
 ## Project
 
 School project developed independently during bachelor's studies in Information Technology.
