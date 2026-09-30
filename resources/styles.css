@@ -1,0 +1,94 @@
+.tab-pane .tab {
+    -fx-padding: 5 40 5 40;
+}
+
+.tab-pane .empty-tab {
+    -fx-background-color: transparent; /* Transparentní pozadí */
+
+}
+
+.tab-pane .empty-tab .tab-label {
+    visibility: hidden;
+    -fx-pref-width: 100px; /* Adjust this value to create the desired space */
+    -fx-background-color: transparent; /* Transparentní pozadí */
+
+}
+
+.tab-pane .tab-add-book .tab-label {
+    -fx-text-fill: green;
+    -fx-font-weight: bold;
+    -fx-font-size: 25pt;
+    -fx-padding: -15px 0 1px 0;
+    -fx-alignment: center;
+}
+
+.col-name {
+    -fx-background-color: #ffcc99; /* Lighter orange */
+    -fx-alignment: CENTER;
+}
+
+.col-author {
+    -fx-background-color: #99ff99; /* Lighter green */
+    -fx-alignment: CENTER;
+}
+
+.col-desc {
+    -fx-background-color: #99ccff; /* Lighter blue */
+    -fx-alignment: CENTER;
+    -fx-min-width: 200px; /* Set the desired minimum width */
+
+}
+
+.col-page {
+    -fx-background-color: #ff9999; /* Lighter red */
+    -fx-alignment: CENTER;
+}
+
+.table-view {
+    -fx-alignment: CENTER;
+    -fx-hgrow: always;
+}
+
+
+.success-alert .dialog-pane {
+    -fx-background-color: #f0f0f0;
+    -fx-padding: 20px;
+}
+
+.success-alert .dialog-pane .header-panel {
+    -fx-background-color: #f0f0f0;
+}
+
+.success-alert .dialog-pane .label {
+    -fx-text-fill: #333333;
+}
+
+.success-alert .dialog-pane .button-bar {
+    -fx-background-color: #f0f0f0;
+}
+
+.success-alert .dialog-pane .button-bar .button {
+    -fx-background-color: #4caf50;
+    -fx-text-fill: white;
+}
+
+.success-alert .dialog-pane .button-bar .button:hover {
+    -fx-background-color: #388e3c;
+}
+
+.success-alert .dialog-pane .content {
+    -fx-padding: 0 0 20px 0;
+}
+
+.success-alert .dialog-pane .content .label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.success-alert .dialog-pane .content .icon {
+    -fx-background-image: url("success-icon.png");
+    -fx-background-size: 48px 48px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-padding: 0 0 20px 0;
+}
